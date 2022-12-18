@@ -1,0 +1,87 @@
+@import url("//cdn.web-fonts.ge/fonts/arial-geo/css/arial-geo.min.css");
+
+/* display none/block styles */
+
+.desktop-img{
+    display: none;
+}
+
+
+/* display none/block styles */
+
+
+/* general styles */
+
+.welcome-logo{
+    text-align: center;
+    margin-top: 67px;
+}
+
+.main-img{
+    text-align: center;
+    margin-top:117px;
+}
+
+.btn-container{
+    margin-top:102px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-container button{
+    width: 358px;
+    height: 60px;
+    margin-top:16px;
+    background: #62A1EB;
+    border-radius: 8px;
+    border:none;
+    color: #FFFFFF;
+    font-size:20px;
+    font-family: "BPG Square Mtavruli", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width:1200px){
+
+    /* display none/block styles */
+
+    .mobile-img{
+        display: none;
+    }
+
+    .desktop-img{
+        display: block;
+        text-align: center;
+    }
+
+    /* display none/block styles */
+
+
+    /* general styles */
+
+    .main-img{
+        margin-top:85px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .welcome-logo{
+        margin-top:79px;
+    }
+
+    .btn-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-container button{
+        width: 387px;
+        height: 60px;
+    }
+}

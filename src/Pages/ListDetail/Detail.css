@@ -1,0 +1,399 @@
+.detail-header{
+    margin-top:34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-arrow-img{
+    position: absolute;
+    left:16px;
+    transform: rotate(90deg);
+}
+
+.detail-header h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #232323;
+}
+
+
+/* list-detail-img-block */
+
+.detail-section-wrapper{
+    /* margin: 16px; */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.list-detail-img-block{
+    width: 358px;
+    height: 191px;
+    margin-top:33px;
+}
+
+.list-detail-img-block img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* person-info-wrapper-styles */
+
+
+.person-info-wrapper{
+    margin-top: 29px;
+    display: flex;
+}
+
+.person-left-ul li{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 178%;
+    color: #2E2E2E;
+}
+
+.person-right-ul{
+    position: absolute;
+    left:170px;
+}
+
+.person-right-ul li{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 178%;
+    color: #797979;
+}
+
+
+.line-block{
+    margin-top: 30px;
+    height: 0px;
+}
+
+
+/* laptop-info-wrapper */
+
+.laptop-info-wrapper{
+    margin-top: 40px;
+    display: flex;
+}
+
+.laptop-left-info-ul li{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 178%;
+    font-weight: bold;
+}
+
+
+.laptop-right-info-ul{
+    position: absolute;
+    left:170px;
+}
+
+.laptop-right-info-ul li{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 178%;
+    font-weight: 500;
+    color: #797979;
+}
+
+
+/* footer-line */
+
+.footer-line{
+    height: 0px;
+    margin-top: 37px;
+}
+
+
+
+
+/* laptop-state-wrapper-styles */
+
+.laptop-state-wrapper{
+    margin-top: 34px;
+    display: flex;
+}
+
+
+.laptop-state-left-block{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 178%;
+    color: #2E2E2E;
+}
+
+
+.laptop-state-right-ul{
+    position: absolute;
+    left:170px;
+}
+
+.laptop-state-left-ul li{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 178%;
+}
+
+.laptop-state-right-ul li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 178%;
+    color: #797979;
+}
+
+
+/* display-none-styles */
+
+.desktop-line-block{
+    display: none;
+}
+
+.second-detail-wrapper{
+    display: none;
+}
+
+
+.add-new-btn{
+    display: none;
+}
+
+.state-wrapper{
+    display: flex;
+}
+
+.detail-desktop{
+    display: none;
+}
+
+
+
+@media screen and (min-width:1200px){
+
+    /* display-none-styles */
+
+    .mobile-line-block{
+        display: none;
+    }
+
+    .desktop-line-block{
+        display: block;
+    }
+
+    .mobile-info-wrapper{
+        display: none;
+    }
+
+    .detail-mobile{
+        display: none;
+    }
+
+    /* display-none-styles */
+
+    .detail-section-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+
+    .detail-main-title{
+        font-weight: bold;
+        font-size: 30px !important;
+        line-height: 21px;
+        color: #000000;
+        margin-top: 25px;
+    }
+
+    /* first-detail-wrapper */
+
+    .first-detail-wrapper{
+        display: flex;
+        align-items: center;
+        width: 1178px;
+    }
+
+
+    .list-detail-img-block{
+        width: 577px;
+        height: 342px;
+    }
+
+    .person-info-wrapper{
+        margin-left: 68px;
+    }
+
+    
+    .person-right-ul{
+        position: static;
+        margin-left: 80px;
+    }
+
+    .person-left-ul li{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 27px;
+        color: #2E2E2E;
+        margin-top: 20px;
+
+    }
+
+    .person-right-ul li{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 27px;
+        margin-top: 20px;
+    }
+
+
+    /* second-detail-wrapper */
+
+    .second-detail-wrapper{
+        display: flex;
+        align-items: flex-start;
+        width: 1178px;
+        position: relative;
+        /* gap: 240px; */
+    }
+
+
+    .laptop-right-info-ul{
+        position: static;
+    }
+
+    .laptop-state-right-ul{
+        position: static;
+    }
+
+    /* left-ul-wrapper-styles */
+
+    .desktop-left{
+        display: flex;
+    }
+
+    .left-ul-wrapper{
+        margin-top: 54px;
+    }
+
+    .left-ul-wrapper li{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 27px;
+        color: #2E2E2E;
+        margin-top: 22px;
+    }
+
+
+    .left-ul-result{
+        margin-top: 54px;
+    }
+
+    .left-ul-result li{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 27px;
+        color: #797979;
+        margin-top: 22px;
+        margin-left: 88px;
+    }
+
+
+    /* desktop-right-styles */
+
+    .desktop-right{
+        position: absolute;
+        display: flex;
+        left: 650px;
+    }
+
+
+    /* laptop-state-wrapper-styles */
+
+    .state-wrapper{
+        display: flex;
+    }
+
+    .laptop-state-wrapper{
+        width: 1178px;
+        display: flex;
+        align-items: center;
+        gap: 340px;
+    }
+
+    .laptop-state-left-ul li{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 27px;
+        color: #2E2E2E;
+        margin-top: 22px;
+    }
+
+    .laptop-state-right-ul li{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 27px;
+        color: #797979;
+        margin-top: 22px;
+        margin-left: 88px;
+    }
+
+
+    .add-new-btn{
+        display: block;
+        margin-top: 22px;
+    }
+
+    .add-new-btn button{
+        width: 140px;
+        height: 50px;
+        border:none;
+        border-radius: 7px;
+        background: #62A1EB;
+        font-size: 18px;
+        cursor: pointer;
+        color:white;
+        transition-duration: 0.3s;
+    }
+
+    .add-new-btn button:hover{
+        background: #62a2ebc4;
+    }
+
+
+    .detail-desktop{
+        width: 53px;
+        height: 53px;
+        background: #D9D9D9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        position: absolute;
+        top:5px;
+        left:70px;
+        cursor: pointer;
+    }
+
+    .detail-desktop img{
+        transform: rotate(90deg);
+    }
+
+}
